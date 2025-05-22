@@ -1,0 +1,28 @@
+Body{
+  background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+form{
+  width:50%
+}
+fieldset{
+  border:3px solid rgd (223,0,197);
+  border-radius:20px;
+}
+input:required{
+  border:red;
+}
+input:optional{
+  border: #EEAECA;
+}
+input:optional{
+  background-color: rgb(196,123,241);
+  color: 35,14,142;
+}
+  input[type="radio"]:checked{
+    height:15px;
+    width:15px;
+  }
+  input[type="radio"]:checked+label{
+    color: #aeeeae;
+}
